@@ -359,7 +359,7 @@
     {
       "id": "co-x265",
       "name": "x265",
-      "pattern": "(?i)\\b(?:x265|h[._-]?265|hevc)\\b",
+      "pattern": "(?i)\\b(?:x265|h[._-]?265|hevc|(?<!\\d)265(?!\\d))\\b",
       "tagColor": "#1642bb",
       "borderColor": "#00000000",
       "textColor": "#FFFFFF",
@@ -371,7 +371,7 @@
     {
       "id": "co-x264",
       "name": "x264",
-      "pattern": "(?i)\\b(?:x264|h[._-]?264|avc)\\b",
+      "pattern": "(?i)\\b(?:x264|h[._-]?264|avc|(?<!\\d)264(?!\\d))\\b",
       "tagColor": "#5b2f2f",
       "borderColor": "#00000000",
       "textColor": "#FFFFFF",
