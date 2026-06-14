@@ -1,6 +1,12 @@
 {
   "groups": [
     {
+      "id": "g-z3pq2l",
+      "name": "Languages",
+      "color": "#000000",
+      "isExpanded": true
+    },
+    {
       "id": "gq",
       "name": "Quality",
       "color": "#000000",
@@ -38,6 +44,18 @@
     }
   ],
   "filters": [
+    {
+      "id": "b-nkr8tz",
+      "name": "DUBLADO",
+      "pattern": "(?i)\\b(?:pt-br|pt-pt|ptbr|ptpt|pt|portugu[eê]s|portuguese|brazilian portuguese|portuguese[- ]?br|portuguese[- ]?pt)\\b",
+      "tagColor": "#ec0914",
+      "borderColor": "#1A1A1A",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "imageURL": "",
+      "isEnabled": true,
+      "groupId": "g-z3pq2l"
+    },
     {
       "id": "q-remux",
       "name": "Remux",
@@ -149,7 +167,7 @@
     {
       "id": "v-hdr10",
       "name": "HDR10",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b)(?=.*\\bhdr\\s*10\\b)",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)(?=\\W|$))(?=.*\\bhdr\\s*10(?!\\s*(?:\\+|plus|p)(?=\\W|$)))",
       "tagColor": "#113c74",
       "borderColor": "#00000000",
       "textColor": "#FFFFFF",
