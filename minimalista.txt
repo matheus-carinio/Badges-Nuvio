@@ -184,7 +184,7 @@
       "borderColor": "#A67C00",
       "textColor": "#FFFFFFFF",
       "tagStyle": "filled",
-      "imageURL": "https://github.com/matheus-carinio/Badges-Nuvio/blob/main/special-ai-upscaled.png?raw=true",
+      "imageURL": "https://github.com/matheus-carinio/Badges-Nuvio/blob/main/special-ai-upscaled-ii.png?raw=true",
       "isEnabled": true,
       "groupId": "g-dsr22e"
     },
