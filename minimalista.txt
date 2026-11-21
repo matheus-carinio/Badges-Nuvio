@@ -4,43 +4,50 @@
       "id": "g-dsr22e",
       "name": "Special",
       "color": "#A67C00",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "gq",
       "name": "Quality",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "g-cvliuo",
       "name": "Imax",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "gv",
       "name": "Visual",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "ga",
       "name": "Audio",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "gc",
       "name": "Channels",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     },
     {
       "id": "gco",
       "name": "Codec",
       "color": "#000000",
-      "isExpanded": true
+      "isExpanded": true,
+      "borderColor": "#00000000"
     }
   ],
   "filters": [
@@ -455,7 +462,7 @@
     {
       "id": "a-dts",
       "name": "DTS",
-      "pattern": "(?i)^(?=.*\\bdts\\b)(?!.*\\bdts[-_.: ]?(?:hd|ma|xll|x)\\b)",
+      "pattern": "(?i)^(?=.*\\bdts\\b)(?!.*\\bdts[-_.: ]?(?:hd|ma|hdma|xll|x)\\b)",
       "tagColor": "#b92266",
       "borderColor": "#b92266",
       "textColor": "#FFFFFF",
