@@ -438,7 +438,7 @@
     {
       "id": "a-dtshdma",
       "name": "DTS-HD MA",
-      "pattern": "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+      "pattern": "(?i)^(?=.*\\bdts\\b)(?=.*\\bma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
       "tagColor": "#b92266",
       "borderColor": "#b92266",
       "textColor": "#FFFFFF",
@@ -450,7 +450,7 @@
     {
       "id": "a-dtshd",
       "name": "DTS-HD",
-      "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
+      "pattern": "(?i)^(?=.*\\bdts\\b)(?=.*\\bhd\\b)(?!.*\\bma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
       "tagColor": "#b92266",
       "borderColor": "#b92266",
       "textColor": "#FFFFFF",
@@ -462,7 +462,7 @@
     {
       "id": "a-dts",
       "name": "DTS",
-      "pattern": "(?i)^(?=.*\\bdts\\b)(?!.*\\bdts[-_.: ]?(?:hd|ma|hdma|xll|x)\\b)",
+      "pattern": "(?i)^(?=.*\\bdts\\b)(?!.*\\bdts[-_.: ]?x\\b)(?!.*\\bdts\\b.*\\bhd\\b)(?!.*\\bdts\\b.*\\bma\\b)",
       "tagColor": "#b92266",
       "borderColor": "#b92266",
       "textColor": "#FFFFFF",
