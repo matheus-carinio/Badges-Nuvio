@@ -1,6 +1,13 @@
 {
   "groups": [
     {
+      "id": "gr",
+      "name": "Resolution",
+      "color": "#000000",
+      "isExpanded": true,
+      "borderColor": "#00000000"
+    },
+    {
       "id": "g-dsr22e",
       "name": "Special",
       "color": "#A67C00",
@@ -51,6 +58,42 @@
     }
   ],
   "filters": [
+    {
+      "id": "r-4k",
+      "name": "4K",
+      "pattern": "(?i)\\b(?:2160p|4k|uhd)\\b",
+      "tagColor": "#00000000",
+      "borderColor": "rgba(0,0,0,0)",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "imageURL": "https://github.com/matheus-carinio/Badges-Nuvio/blob/main/4k.png?raw=true",
+      "isEnabled": true,
+      "groupId": "gr"
+    },
+    {
+      "id": "r-1080p",
+      "name": "1080p",
+      "pattern": "(?i)^(?=.*\\b(?:1080[pi]|fhd)\\b)(?!.*\\b(?:2160p|4k|uhd)\\b)",
+      "tagColor": "#00000000",
+      "borderColor": "rgba(0,0,0,0)",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "imageURL": "https://github.com/matheus-carinio/Badges-Nuvio/blob/main/1080p.png?raw=true",
+      "isEnabled": true,
+      "groupId": "gr"
+    },
+    {
+      "id": "r-720p",
+      "name": "720p",
+      "pattern": "(?i)^(?=.*\\b(?:720p|hd)\\b)(?!.*\\b(?:2160p|4k|uhd|1080[pi]|fhd)\\b)",
+      "tagColor": "#00000000",
+      "borderColor": "rgba(0,0,0,0)",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "imageURL": "https://github.com/matheus-carinio/Badges-Nuvio/blob/main/720p.png?raw=true",
+      "isEnabled": true,
+      "groupId": "gr"
+    },
     {
       "id": "b-ya2nb3",
       "name": "Black & White",
